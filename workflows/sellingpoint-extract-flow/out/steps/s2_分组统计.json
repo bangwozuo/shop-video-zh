@@ -1,0 +1,89 @@
+{
+  "n_items": 10,
+  "n_sources": 4,
+  "min_group_n": 3,
+  "group_rows": [
+    {
+      "source": "参数",
+      "count": 4,
+      "item_nos": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "is_major_theme": true
+    },
+    {
+      "source": "用户评价",
+      "count": 4,
+      "item_nos": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "is_major_theme": true
+    },
+    {
+      "source": "商品标题",
+      "count": 1,
+      "item_nos": [
+        1
+      ],
+      "is_major_theme": false
+    },
+    {
+      "source": "客服记录",
+      "count": 1,
+      "item_nos": [
+        10
+      ],
+      "is_major_theme": false
+    }
+  ],
+  "keyword_hits": [
+    {
+      "keyword": "保温",
+      "hits": [
+        1,
+        2,
+        10
+      ],
+      "hit_count": 3
+    },
+    {
+      "keyword": "吸管",
+      "hits": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "hit_count": 4
+    },
+    {
+      "keyword": "漏",
+      "hits": [
+        5,
+        8
+      ],
+      "hit_count": 2
+    },
+    {
+      "keyword": "背带",
+      "hits": [
+        3,
+        9
+      ],
+      "hit_count": 2
+    },
+    {
+      "keyword": "拆洗",
+      "hits": [
+        4
+      ],
+      "hit_count": 1
+    }
+  ]
+}

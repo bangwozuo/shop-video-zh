@@ -1,0 +1,49 @@
+{
+  "flow": "publish-recap-flow",
+  "flow_id": "de_ecom_05_wf05",
+  "steps": [
+    "S1 数据归因分析（原子技能）",
+    "S2 机会简报生成（跨仓原子技能）",
+    "S3 复盘统计与排期（脚本）"
+  ],
+  "summary": "4 条 / 爆款 1 条 / 下周 3 条排期",
+  "steps_result": {
+    "s1": {
+      "n_videos": 4
+    },
+    "s2": {
+      "mean_plays": 20000,
+      "total_plays": 80000,
+      "total_redemptions": 22,
+      "hot_titles": [
+        "V2 可颂出炉全过程"
+      ],
+      "avg_completion_pct": 18.0
+    },
+    "s3": {
+      "next_week": "2026-10-19",
+      "weekly_target": 3,
+      "plan": [
+        {
+          "date": "2026-10-19",
+          "kind": "爆款复刻",
+          "action": "复刻「V2 可颂出炉全过程」结构（同开头形式+同节奏）",
+          "kpi": "播放 ≥ 24000，完播率 ≥ 20%"
+        },
+        {
+          "date": "2026-10-21",
+          "kind": "新角度测试",
+          "action": "新角度测试：围绕「V2 可颂出炉全过程」的衍生选题做 A/B 对照",
+          "kpi": "播放 ≥ 24000，完播率 ≥ 20%"
+        },
+        {
+          "date": "2026-10-23",
+          "kind": "新角度测试",
+          "action": "新角度测试：围绕「V2 可颂出炉全过程」的衍生选题做 A/B 对照",
+          "kpi": "播放 ≥ 24000，完播率 ≥ 20%"
+        }
+      ]
+    }
+  },
+  "deliverable": "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\shop-video-zh\\workflows\\publish-recap-flow\\out\\发布排期.md"
+}

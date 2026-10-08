@@ -1,0 +1,103 @@
+{
+  "flow": "sellingpoint-extract-flow",
+  "flow_id": "de_ecom_05_wf01",
+  "steps": [
+    "S1 商品卖点提炼（原子技能）",
+    "S2 分组统计核算（脚本）",
+    "S3 交付物组装（脚本）"
+  ],
+  "summary": "解析 10 条条目 / 4 类来源，高频主题 2 个",
+  "steps_result": {
+    "s1": {
+      "n_items": 10
+    },
+    "s2": {
+      "groups": [
+        {
+          "source": "参数",
+          "count": 4,
+          "item_nos": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "is_major_theme": true
+        },
+        {
+          "source": "用户评价",
+          "count": 4,
+          "item_nos": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "is_major_theme": true
+        },
+        {
+          "source": "商品标题",
+          "count": 1,
+          "item_nos": [
+            1
+          ],
+          "is_major_theme": false
+        },
+        {
+          "source": "客服记录",
+          "count": 1,
+          "item_nos": [
+            10
+          ],
+          "is_major_theme": false
+        }
+      ],
+      "keywords": [
+        {
+          "keyword": "保温",
+          "hits": [
+            1,
+            2,
+            10
+          ],
+          "hit_count": 3
+        },
+        {
+          "keyword": "吸管",
+          "hits": [
+            1,
+            4,
+            7,
+            10
+          ],
+          "hit_count": 4
+        },
+        {
+          "keyword": "漏",
+          "hits": [
+            5,
+            8
+          ],
+          "hit_count": 2
+        },
+        {
+          "keyword": "背带",
+          "hits": [
+            3,
+            9
+          ],
+          "hit_count": 2
+        },
+        {
+          "keyword": "拆洗",
+          "hits": [
+            4
+          ],
+          "hit_count": 1
+        }
+      ]
+    }
+  },
+  "deliverable": "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\shop-video-zh\\workflows\\sellingpoint-extract-flow\\out\\卖点清单.md",
+  "generated_at_note": "确定性计算由 run_flow.py 完成；语义洞察由模型按 prompt.txt 完成"
+}

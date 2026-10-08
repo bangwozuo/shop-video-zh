@@ -1,0 +1,26 @@
+{
+  "flow": "voiceover-subtitle-flow",
+  "flow_id": "de_ecom_05_wf03",
+  "steps": [
+    "S1 字幕文案/口播稿（原子技能）",
+    "S2 语速与时间轴核算（脚本）",
+    "S3 SRT 落盘（脚本）"
+  ],
+  "summary": "40s / 抖音 / 11 行字幕 —— 打回（语速超死线）",
+  "steps_result": {
+    "s1": {
+      "n_items": 4,
+      "duration_s": 40
+    },
+    "s2": {
+      "line_limit": 16,
+      "total_chars": 114,
+      "rate": 2.85,
+      "issues": [
+        "语速 2.9 字/秒超出 3.5-6.0 死线：40s 目标对应台词 140-240 字，当前 114 字"
+      ]
+    }
+  },
+  "deliverable": "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\shop-video-zh\\workflows\\voiceover-subtitle-flow\\out\\字幕.srt",
+  "verdict": "打回（语速超死线）"
+}

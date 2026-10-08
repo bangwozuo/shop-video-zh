@@ -1,0 +1,45 @@
+{
+  "materials": [
+    {
+      "id": "A001",
+      "desc": "可颂出炉特写",
+      "resolution": "4K",
+      "duration_s": 15,
+      "res_score": 3
+    },
+    {
+      "id": "A002",
+      "desc": "门口排队人群",
+      "resolution": "1080P",
+      "duration_s": 15,
+      "res_score": 2
+    },
+    {
+      "id": "A003",
+      "desc": "柜台面包陈列",
+      "resolution": "1080P",
+      "duration_s": 20,
+      "res_score": 2
+    },
+    {
+      "id": "A004",
+      "desc": "店主揉面采访片段",
+      "resolution": "1080P",
+      "duration_s": 60,
+      "res_score": 2
+    },
+    {
+      "id": "A005",
+      "desc": "可颂拉丝试吃",
+      "resolution": "4K",
+      "duration_s": 25,
+      "res_score": 3
+    }
+  ],
+  "total_material_s": 135,
+  "target_s": 30,
+  "platform": "抖音",
+  "aspect": "9:16",
+  "music": "轻快爵士",
+  "subtitle_style": "烧录"
+}

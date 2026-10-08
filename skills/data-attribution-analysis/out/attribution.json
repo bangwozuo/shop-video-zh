@@ -1,0 +1,112 @@
+{
+  "n_videos": 6,
+  "mean_plays": 17167.0,
+  "total_plays": 103000,
+  "total_redemptions": 68,
+  "hot_multiple_threshold": 2.0,
+  "significant_pct": 20.0,
+  "rows": [
+    {
+      "title": "可颂出炉全过程",
+      "week": 2,
+      "plays": 46000,
+      "completion_pct": 26,
+      "redemptions": 25,
+      "plays_vs_mean_pct": 168.0,
+      "hot_multiple": 4.04,
+      "is_hot": true,
+      "redemptions_per_wan": 5.43,
+      "rank": 1
+    },
+    {
+      "title": "产品特写混剪",
+      "week": 1,
+      "plays": 15000,
+      "completion_pct": 19,
+      "redemptions": 12,
+      "plays_vs_mean_pct": -12.6,
+      "hot_multiple": 0.85,
+      "is_hot": false,
+      "redemptions_per_wan": 8.0,
+      "rank": 2
+    },
+    {
+      "title": "碱水结试吃",
+      "week": 1,
+      "plays": 12000,
+      "completion_pct": 17,
+      "redemptions": 8,
+      "plays_vs_mean_pct": -30.1,
+      "hot_multiple": 0.66,
+      "is_hot": false,
+      "redemptions_per_wan": 6.67,
+      "rank": 3
+    },
+    {
+      "title": "店内静态空镜合集B",
+      "week": 2,
+      "plays": 11000,
+      "completion_pct": 18,
+      "redemptions": 9,
+      "plays_vs_mean_pct": -35.9,
+      "hot_multiple": 0.6,
+      "is_hot": false,
+      "redemptions_per_wan": 8.18,
+      "rank": 4
+    },
+    {
+      "title": "店主采访",
+      "week": 2,
+      "plays": 10000,
+      "completion_pct": 24,
+      "redemptions": 7,
+      "plays_vs_mean_pct": -41.7,
+      "hot_multiple": 0.54,
+      "is_hot": false,
+      "redemptions_per_wan": 7.0,
+      "rank": 5
+    },
+    {
+      "title": "店面静态空镜合集A",
+      "week": 1,
+      "plays": 9000,
+      "completion_pct": 18,
+      "redemptions": 7,
+      "plays_vs_mean_pct": -47.6,
+      "hot_multiple": 0.48,
+      "is_hot": false,
+      "redemptions_per_wan": 7.78,
+      "rank": 6
+    }
+  ],
+  "week_summary": [
+    {
+      "week": 1,
+      "videos": 3,
+      "plays": 36000,
+      "redemptions": 27,
+      "avg_completion_pct": 18.0,
+      "redemptions_per_wan": 7.5
+    },
+    {
+      "week": 2,
+      "videos": 3,
+      "plays": 67000,
+      "redemptions": 41,
+      "avg_completion_pct": 22.7,
+      "redemptions_per_wan": 6.12,
+      "plays_wow_pct": 86.1,
+      "redemptions_wow_pct": 51.9
+    }
+  ],
+  "hot_titles": [
+    "可颂出炉全过程"
+  ],
+  "top3_titles": [
+    "可颂出炉全过程",
+    "产品特写混剪",
+    "碱水结试吃"
+  ],
+  "context": "10/1-10/3 为国庆假期，门店客流本身偏高；10/4 起店内上线「过夜半价」活动。账号未投流。",
+  "note": "数值均由本脚本计算；因果解释、置信度措辞由模型按 prompt.txt 完成"
+}

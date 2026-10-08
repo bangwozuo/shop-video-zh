@@ -1,0 +1,56 @@
+{
+  "flow": "mashcut-instruction-pack-flow",
+  "flow_id": "de_ecom_05_wf04",
+  "steps": [
+    "S1 短视频脚本生成（原子技能）",
+    "S2 黄金 3 秒钩子库（原子技能）",
+    "S3 选片与指令包组装（脚本）"
+  ],
+  "summary": "30s 成片 / 4 段时间轴 / 素材储备 达标 —— 指令包生成通过",
+  "steps_result": {
+    "s1": {
+      "n_materials": 5,
+      "total_material_s": 135
+    },
+    "s2": {
+      "segments": [
+        {
+          "start_s": 0,
+          "clip": "A001",
+          "desc": "可颂出炉特写",
+          "resolution": "4K",
+          "duration_s": 8,
+          "usage": "截取"
+        },
+        {
+          "start_s": 8,
+          "clip": "A005",
+          "desc": "可颂拉丝试吃",
+          "resolution": "4K",
+          "duration_s": 8,
+          "usage": "截取"
+        },
+        {
+          "start_s": 16,
+          "clip": "A002",
+          "desc": "门口排队人群",
+          "resolution": "1080P",
+          "duration_s": 8,
+          "usage": "截取"
+        },
+        {
+          "start_s": 24,
+          "clip": "A003",
+          "desc": "柜台面包陈列",
+          "resolution": "1080P",
+          "duration_s": 6,
+          "usage": "截取"
+        }
+      ],
+      "used_s": 30,
+      "issues": []
+    }
+  },
+  "deliverable": "C:\\Users\\nsxzy\\WorkBuddy\\2026-09-24-12-12-44\\library\\repos\\shop-video-zh\\workflows\\mashcut-instruction-pack-flow\\out\\剪映指令包.md",
+  "verdict": "指令包生成通过"
+}

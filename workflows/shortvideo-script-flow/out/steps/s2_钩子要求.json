@@ -1,0 +1,5 @@
+{
+  "hook_budget_s": 2,
+  "hook_max_chars": 15,
+  "note": "钩子 ≤ 2s 且 ≤ 15 字，由黄金 3 秒钩子库产出候选"
+}

@@ -1,0 +1,41 @@
+{
+  "segments": [
+    {
+      "start_s": 0,
+      "clip": "A001",
+      "desc": "可颂出炉特写",
+      "resolution": "4K",
+      "duration_s": 8,
+      "usage": "截取"
+    },
+    {
+      "start_s": 8,
+      "clip": "A005",
+      "desc": "可颂拉丝试吃",
+      "resolution": "4K",
+      "duration_s": 8,
+      "usage": "截取"
+    },
+    {
+      "start_s": 16,
+      "clip": "A002",
+      "desc": "门口排队人群",
+      "resolution": "1080P",
+      "duration_s": 8,
+      "usage": "截取"
+    },
+    {
+      "start_s": 24,
+      "clip": "A003",
+      "desc": "柜台面包陈列",
+      "resolution": "1080P",
+      "duration_s": 6,
+      "usage": "截取"
+    }
+  ],
+  "used_s": 30,
+  "reserve_ratio": 1.2,
+  "reserve_ok": true,
+  "hook_clip": "A001",
+  "issues": []
+}

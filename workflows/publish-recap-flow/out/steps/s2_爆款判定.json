@@ -1,0 +1,59 @@
+{
+  "n_videos": 4,
+  "mean_plays": 20000,
+  "total_plays": 80000,
+  "total_redemptions": 22,
+  "avg_completion_pct": 18.0,
+  "overall_redemptions_per_wan": 2.75,
+  "hot_titles": [
+    "V2 可颂出炉全过程"
+  ],
+  "top_title": "V2 可颂出炉全过程",
+  "rows": [
+    {
+      "title": "V2 可颂出炉全过程",
+      "plays": 52000,
+      "completion_pct": 26,
+      "redemptions": 12,
+      "plays_vs_mean_pct": 160.0,
+      "hot_multiple": 5.57,
+      "is_hot": true,
+      "redemptions_per_wan": 2.31,
+      "rank": 1
+    },
+    {
+      "title": "V3 店主采访：为什么过夜半价",
+      "plays": 14000,
+      "completion_pct": 19,
+      "redemptions": 5,
+      "plays_vs_mean_pct": -30.0,
+      "hot_multiple": 0.64,
+      "is_hot": false,
+      "redemptions_per_wan": 3.57,
+      "rank": 2
+    },
+    {
+      "title": "V1 碱水结试吃",
+      "plays": 8000,
+      "completion_pct": 15,
+      "redemptions": 3,
+      "plays_vs_mean_pct": -60.0,
+      "hot_multiple": 0.33,
+      "is_hot": false,
+      "redemptions_per_wan": 3.75,
+      "rank": 3
+    },
+    {
+      "title": "V4 店内陈列合集",
+      "plays": 6000,
+      "completion_pct": 12,
+      "redemptions": 2,
+      "plays_vs_mean_pct": -70.0,
+      "hot_multiple": 0.24,
+      "is_hot": false,
+      "redemptions_per_wan": 3.33,
+      "rank": 4
+    }
+  ],
+  "hot_multiple": 2.0
+}
