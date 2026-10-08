@@ -1,0 +1,82 @@
+{
+  "skill_id": "de_local_01_sk01",
+  "name": "短视频脚本生成",
+  "type": "atomic",
+  "input": {
+    "type": "object",
+    "required": [
+      "topic"
+    ],
+    "properties": {
+      "topic": {
+        "type": "string",
+        "description": "主题与素材：内容要点或素材描述"
+      },
+      "duration": {
+        "type": "string",
+        "description": "时长：成片目标时长（可选，缺省 60 秒）"
+      },
+      "platform": {
+        "type": "string",
+        "description": "投放平台：平台调性参考（可选）"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "required": [
+      "script",
+      "shot_list",
+      "props"
+    ],
+    "properties": {
+      "script": {
+        "type": "string",
+        "description": "完整口播/旁白文稿"
+      },
+      "shot_list": {
+        "type": "array",
+        "description": "可交付拍摄的分镜",
+        "items": {
+          "type": "object",
+          "properties": {
+            "#": {
+              "type": "string"
+            },
+            "时间": {
+              "type": "string"
+            },
+            "画面内容": {
+              "type": "string"
+            },
+            "景别/运镜": {
+              "type": "string"
+            },
+            "口播/字幕": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "props": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "需要的道具、场地、人物"
+      }
+    },
+    "x-rendered-from": "capability:generate_script"
+  },
+  "constraints": {
+    "max_input_length": 5000,
+    "forbidden_words": [
+      "最好",
+      "第一",
+      "100%"
+    ],
+    "ai_label_required": true,
+    "human_review_required": true,
+    "external_api_required": false
+  }
+}

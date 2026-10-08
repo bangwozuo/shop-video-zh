@@ -1,0 +1,80 @@
+{
+  "skill_id": "de_ecom_05_sk05",
+  "name": "数据归因分析",
+  "type": "atomic",
+  "input": {
+    "type": "object",
+    "required": [
+      "data"
+    ],
+    "properties": {
+      "data": {
+        "type": "string",
+        "description": "表现数据：各维度、各周期的指标数据"
+      },
+      "context": {
+        "type": "string",
+        "description": "背景信息：同期发生的内容/活动/外部事件（可选）"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "required": [
+      "conclusion",
+      "drivers",
+      "confidence",
+      "next_action"
+    ],
+    "properties": {
+      "conclusion": {
+        "type": "string",
+        "description": "一句话概括最重要的发现"
+      },
+      "drivers": {
+        "type": "array",
+        "description": "因素与影响方向、幅度",
+        "items": {
+          "type": "object",
+          "properties": {
+            "因素": {
+              "type": "string"
+            },
+            "影响方向": {
+              "type": "string"
+            },
+            "影响幅度": {
+              "type": "string"
+            },
+            "证据": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "confidence": {
+        "type": "object",
+        "description": "本次分析的置信水平与理由"
+      },
+      "next_action": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "可执行的行动建议"
+      }
+    },
+    "x-rendered-from": "capability:analyze"
+  },
+  "constraints": {
+    "max_input_length": 5000,
+    "forbidden_words": [
+      "最好",
+      "第一",
+      "100%"
+    ],
+    "ai_label_required": true,
+    "human_review_required": true,
+    "external_api_required": false
+  }
+}

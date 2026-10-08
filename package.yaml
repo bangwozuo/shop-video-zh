@@ -1,0 +1,48 @@
+name: 店铺编导
+repo: bangwozuo/shop-video-zh
+legacy_name: 内容编导·小导
+version: 0.2.0
+asset_type: prompt-only
+stage: P1
+complexity: S-M
+group: 电商小卖家
+runtime_dependencies: none
+api_key_required: false
+demand_ids:
+  - D01
+  - D21
+
+workflows:
+  - name: 商品卖点提取
+    id: de_ecom_05_wf01
+  - name: 短视频脚本生成
+    id: de_ecom_05_wf02
+  - name: 口播文案+字幕
+    id: de_ecom_05_wf03
+  - name: 素材混剪指令包
+    id: de_ecom_05_wf04
+  - name: 发布排期+数据复盘
+    id: de_ecom_05_wf05
+
+skills:
+  - id: product-sellingpoint-extract
+    name: 商品卖点提炼
+    family: 
+  - id: shortvideo-script-generate
+    name: 短视频脚本生成
+    family: 
+  - id: golden-3s-hook-library
+    name: 黄金 3 秒钩子库
+    family: 
+  - id: subtitle-copy
+    name: 字幕文案
+    family: 
+  - id: data-attribution-analysis
+    name: 数据归因分析
+    family: 
+
+compliance:
+  ai_label_required: true
+  human_review_required: true
+  forbidden_words_check: true
+  official_api_only: true

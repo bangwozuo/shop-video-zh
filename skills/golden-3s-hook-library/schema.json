@@ -1,0 +1,79 @@
+{
+  "skill_id": "de_ecom_05_sk03",
+  "name": "黄金 3 秒钩子库",
+  "type": "atomic",
+  "input": {
+    "type": "object",
+    "required": [
+      "topic"
+    ],
+    "properties": {
+      "topic": {
+        "type": "string",
+        "description": "主题：要围绕什么内容做钩子"
+      },
+      "audience": {
+        "type": "string",
+        "description": "目标受众：给谁看（可选）"
+      },
+      "platform": {
+        "type": "string",
+        "description": "投放平台：平台调性参考（可选）"
+      }
+    }
+  },
+  "output": {
+    "type": "object",
+    "required": [
+      "hooks",
+      "angles",
+      "avoid"
+    ],
+    "properties": {
+      "hooks": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "8-10 条可直接使用的钩子"
+      },
+      "angles": {
+        "type": "array",
+        "description": "每类角度的适用场景",
+        "items": {
+          "type": "object",
+          "properties": {
+            "角度": {
+              "type": "string"
+            },
+            "适用场景": {
+              "type": "string"
+            },
+            "示例钩子": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "avoid": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "容易失效或违规的表达方式"
+      }
+    },
+    "x-rendered-from": "capability:generate_hook"
+  },
+  "constraints": {
+    "max_input_length": 5000,
+    "forbidden_words": [
+      "最好",
+      "第一",
+      "100%"
+    ],
+    "ai_label_required": true,
+    "human_review_required": true,
+    "external_api_required": false
+  }
+}
