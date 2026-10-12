@@ -4,8 +4,7 @@
 
 ![店铺编导 · 动态演示](docs/assets/hero.gif)
 
-*▲ 实时演示（自动循环）· [▶ 观看完整版合集视频](docs/demo.mp4)*
-
+*▲ 真实执行录播（自动循环播放）· [▶ 观看完整版合集视频](docs/demo.mp4)*
 
 [![Stage](https://img.shields.io/badge/stage-P1-orange)](https://github.com/bangwozuo)
 [![Asset](https://img.shields.io/badge/asset-prompt--only-blueviolet)](#资产形态)
@@ -113,11 +112,11 @@ shop-video-zh/
 
 | # | 技能 | 能力族 | 复杂度 | 提示词 | 文档 |
 |---|------|--------|--------|--------|------|
-| 1 | 商品卖点提炼 | 摘要提炼 | `S` | [prompt.txt](skills/product-sellingpoint-extract/prompt.txt) | [docs](skills/product-sellingpoint-extract/docs/) |
-| 2 | 短视频脚本生成 | 脚本生成 | `S` | [prompt.txt](skills/shortvideo-script-generate/prompt.txt) | [docs](skills/shortvideo-script-generate/docs/) |
-| 3 | 黄金 3 秒钩子库 | 选题创意 | `S` | [prompt.txt](skills/golden-3s-hook-library/prompt.txt) | [docs](skills/golden-3s-hook-library/docs/) |
-| 4 | 字幕文案 | 脚本生成 | `S` | [prompt.txt](skills/subtitle-copy/prompt.txt) | [docs](skills/subtitle-copy/docs/) |
-| 5 | 数据归因分析 | 分析诊断 | `M` | [prompt.txt](skills/data-attribution-analysis/prompt.txt) | [docs](skills/data-attribution-analysis/docs/) |
+| 1 | 商品卖点提炼 | 摘要与聚类 | `S` | [prompt.txt](skills/product-sellingpoint-extract/prompt.txt) | [docs](skills/product-sellingpoint-extract/docs/) |
+| 2 | 短视频脚本生成 | 脚本与分镜生成 | `S` | [prompt.txt](skills/shortvideo-script-generate/prompt.txt) | [docs](skills/shortvideo-script-generate/docs/) |
+| 3 | 黄金 3 秒钩子库 | 钩子与创意生成 | `S` | [prompt.txt](skills/golden-3s-hook-library/prompt.txt) | [docs](skills/golden-3s-hook-library/docs/) |
+| 4 | 字幕文案 | 脚本与分镜生成 | `S` | [prompt.txt](skills/subtitle-copy/prompt.txt) | [docs](skills/subtitle-copy/docs/) |
+| 5 | 数据归因分析 | 归因诊断 | `M` | [prompt.txt](skills/data-attribution-analysis/prompt.txt) | [docs](skills/data-attribution-analysis/docs/) |
 
 ## 工作流清单（5 条）
 
