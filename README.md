@@ -110,23 +110,23 @@ shop-video-zh/
 
 ## 技能清单（5 个）
 
-| # | 技能 | 能力族 | 复杂度 | 提示词 | 文档 |
-|---|------|--------|--------|--------|------|
-| 1 | 商品卖点提炼 | 摘要与聚类 | `S` | [prompt.txt](skills/product-sellingpoint-extract/prompt.txt) | [docs](skills/product-sellingpoint-extract/docs/) |
-| 2 | 短视频脚本生成 | 脚本与分镜生成 | `S` | [prompt.txt](skills/shortvideo-script-generate/prompt.txt) | [docs](skills/shortvideo-script-generate/docs/) |
-| 3 | 黄金 3 秒钩子库 | 钩子与创意生成 | `S` | [prompt.txt](skills/golden-3s-hook-library/prompt.txt) | [docs](skills/golden-3s-hook-library/docs/) |
-| 4 | 字幕文案 | 脚本与分镜生成 | `S` | [prompt.txt](skills/subtitle-copy/prompt.txt) | [docs](skills/subtitle-copy/docs/) |
-| 5 | 数据归因分析 | 归因诊断 | `M` | [prompt.txt](skills/data-attribution-analysis/prompt.txt) | [docs](skills/data-attribution-analysis/docs/) |
+| # | 技能 | 能力族 | 复杂度 | 说明文档 |
+|---|------|--------|--------|----------|
+| 1 | 商品卖点提炼 | 摘要与聚类 | `S` | [README](skills/product-sellingpoint-extract/README.md) |
+| 2 | 短视频脚本生成 | 脚本与分镜生成 | `S` | [README](skills/shortvideo-script-generate/README.md) |
+| 3 | 黄金 3 秒钩子库 | 钩子与创意生成 | `S` | [README](skills/golden-3s-hook-library/README.md) |
+| 4 | 字幕文案 | 脚本与分镜生成 | `S` | [README](skills/subtitle-copy/README.md) |
+| 5 | 数据归因分析 | 归因诊断 | `M` | [README](skills/data-attribution-analysis/README.md) |
 
 ## 工作流清单（5 条）
 
-| # | 工作流 | 阶段 | 复杂度 | 触发 | 定义 | 文档 |
-|---|--------|------|--------|------|------|------|
-| 1 | 商品卖点提取 | `P1` | `S` | 人工 | [SKILL.md](workflows/sellingpoint-extract-flow/SKILL.md) | [docs](workflows/sellingpoint-extract-flow/docs/) |
-| 2 | 短视频脚本生成 | `P1` | `S` | 人工 | [SKILL.md](workflows/shortvideo-script-flow/SKILL.md) | [docs](workflows/shortvideo-script-flow/docs/) |
-| 3 | 口播文案+字幕 | `P1` | `S` | 人工 | [SKILL.md](workflows/voiceover-subtitle-flow/SKILL.md) | [docs](workflows/voiceover-subtitle-flow/docs/) |
-| 4 | 素材混剪指令包 | `P2` | `M` | 人工 | [SKILL.md](workflows/mashcut-instruction-pack-flow/SKILL.md) | [docs](workflows/mashcut-instruction-pack-flow/docs/) |
-| 5 | 发布排期+数据复盘 | `P2` | `M` | 定时（每日/每周） | [SKILL.md](workflows/publish-recap-flow/SKILL.md) | [docs](workflows/publish-recap-flow/docs/) |
+| # | 工作流 | 阶段 | 复杂度 | 触发 | 说明文档 |
+|---|--------|------|--------|------|----------|
+| 1 | 商品卖点提取 | `P1` | `S` | 人工 | [README](workflows/sellingpoint-extract-flow/README.md) |
+| 2 | 短视频脚本生成 | `P1` | `S` | 人工 | [README](workflows/shortvideo-script-flow/README.md) |
+| 3 | 口播文案+字幕 | `P1` | `S` | 人工 | [README](workflows/voiceover-subtitle-flow/README.md) |
+| 4 | 素材混剪指令包 | `P2` | `M` | 人工 | [README](workflows/mashcut-instruction-pack-flow/README.md) |
+| 5 | 发布排期+数据复盘 | `P2` | `M` | 定时（每日/每周） | [README](workflows/publish-recap-flow/README.md) |
 
 ---
 
